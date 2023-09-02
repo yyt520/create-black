@@ -1,0 +1,24 @@
+{
+  "name": "create-black",
+  "version": "1.0.0",
+  "description": "Zero configuration to quickly create your application",
+  "scripts": {
+    "commit": "cz",
+    "add": "pnpm changeset add",
+    "push": "pnpm changeset publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "typescript": "^4.9.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

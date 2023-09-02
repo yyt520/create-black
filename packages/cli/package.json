@@ -1,0 +1,33 @@
+{
+  "name": "react-cli",
+  "version": "1.0.13",
+  "private":true,
+  "description": "基于pnpm+monorepo+webpack开发的前端脚手架,旨在为用户快速初始化项目。",
+  "type": "module",
+  "bin": {
+    "crazy": "./bin/index.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "react",
+    "cli"
+  ],
+  "author": "black",
+  "license": "MIT",
+  "dependencies": {
+    "@laconic/utils": "workspace:*",
+    "boxen": "^7.0.1",
+    "chalk": "4.0.0",
+    "commander": "^10.0.0",
+    "del": "^7.0.0",
+    "ejs": "^3.1.8",
+    "glob": "^9.3.4",
+    "inquirer": "^9.1.4",
+    "xlsx-populate": "^1.21.0"
+  },
+  "homepage": "https://github.com/black/react-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/black/react-cli"
+  }
+}

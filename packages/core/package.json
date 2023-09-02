@@ -1,0 +1,52 @@
+{
+  "name": "create-black",
+  "version": "1.0.3",
+  "description": "Zero configuration to quickly create your application",
+  "license": "MIT",
+  "homepage": "https://github.com/black/create-black",
+  "bugs": {
+    "url": "https://github.com/black/create-black/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/black/create-black.git",
+    "directory": "packages/core"
+  },
+  "bin": {
+    "create-black": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "start": "tsc -p tsconfig.json --watch"
+  },
+  "files": [
+    "dist/**/*",
+    "template/**/*"
+  ],
+  "keywords": [
+    "react",
+    "vue",
+    "webpack",
+    "rollup",
+    "cli",
+    "ts"
+  ],
+  "dependencies": {
+    "@clack/prompts": "^0.6.3",
+    "@laconic/utils": "workspace:*",
+    "axios": "^1.4.0",
+    "boxen": "^5.0.0",
+    "chalk": "4.0.0",
+    "cli-boxes": "^3.0.0",
+    "commander": "^10.0.0",
+    "fs-extra": "^11.1.1",
+    "ora": "^5.4.1",
+    "tar": "^6.1.15",
+    "tslib": "^2.5.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^20.2.3",
+    "@types/tar": "^6.1.5"
+  }
+}

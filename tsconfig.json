@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2017",
+    "allowJs": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true
+  },
+  "references": [
+    {
+      "paths": "./packages/core"
+    },
+    {
+      "paths": "./packages/rollup-script"
+    }
+  ],
+  "exclude": ["**/node_modules", "**/dist/"],
+  "include": ["./packages/core", "./packages/rollup-script"]
+}
